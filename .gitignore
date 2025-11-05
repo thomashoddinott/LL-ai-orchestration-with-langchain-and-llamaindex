@@ -1,2 +1,4 @@
 openAIkey.txt
+.env
 .DS_Store
+.venv/
