@@ -15,17 +15,14 @@ user_input = """AI Orchestration with LangChain and LlamaIndex
 
 
 llm = ChatOpenAI(
-    api_key="not-needed", # placeholder to satisfy library
-    base_url="http://localhost:1234/v1"  # see chapter 1 video 3
+    api_key="not-needed",  # placeholder to satisfy library
+    base_url="http://localhost:1234/v1",  # see chapter 1 video 3
     # see ./screenshots/LM Studio Server - una-cybertron-7b-v2
 )
 
-prompt = PromptTemplate(  
-    input_variables=["user_input"],
-    template=application_prompt
-)
+prompt = PromptTemplate(input_variables=["user_input"], template=application_prompt)
 
 chain = prompt | llm | StrOutputParser()
 results = chain.stream({"user_input": user_input})
 for chunk in results:
-   print(chunk, end='')
+    print(chunk, end="")

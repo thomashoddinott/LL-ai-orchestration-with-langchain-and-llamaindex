@@ -1,10 +1,11 @@
 import os
-from openai import OpenAI # version 1.0+
+from openai import OpenAI  # version 1.0+
+
 # if you get openai errors, run pip install --upgrade openai
 
 llm = OpenAI(
-    api_key="not-needed", # placeholder to satisfy library
-    base_url="http://localhost:1234/v1"  # see chapter 1 video 3
+    api_key="not-needed",  # placeholder to satisfy library
+    base_url="http://localhost:1234/v1",  # see chapter 1 video 3
     # see ./screenshots/LM Studio Server - una-cybertron-7b-v2
 )
 

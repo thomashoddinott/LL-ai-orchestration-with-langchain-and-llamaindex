@@ -14,7 +14,8 @@ documents = [
     Document(text="William Shakespeare married Anne Hathaway."),
 ]
 
+
 index = VectorStoreIndex(documents)
 query_engine = index.as_query_engine()
-print(query_engine.query("Who was Shakespeare's wife?")) #use vector store
-print(query_engine.query("Where is Flordia?")) #use model
+print(query_engine.query("Who was Shakespeare's wife?"))  # use vector store
+print(query_engine.query("Where is Flordia?"))  # use model
