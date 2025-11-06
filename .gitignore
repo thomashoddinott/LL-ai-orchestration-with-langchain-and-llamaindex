@@ -3,3 +3,4 @@ openAIkey.txt
 .DS_Store
 .venv/
 handbook_index/
+.ipynb_checkpoints/
