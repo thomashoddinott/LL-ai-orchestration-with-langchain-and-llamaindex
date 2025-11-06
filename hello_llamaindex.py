@@ -11,6 +11,7 @@ api_key = os.getenv("LOCAL_LLM_API_KEY") or os.getenv("OPENAI_API_KEY")
 documents = [
     Document(text="Abraham Lincoln was the 16th president of the United States."),
     Document(text="Abraham Shakespeare was a Florida lottery winner in 2006."),
+    # Document(text="William Shakespeare married Dan Hathaway."),
     Document(text="William Shakespeare married Anne Hathaway."),
 ]
 
