@@ -14,12 +14,12 @@ A software tool to:
 - hide the when the specific details and boiler plate code needed to talk to the APIs
 
 ### Retrieval-augmented generation (RAG)
-<img src="image.png" alt="alt text" style="zoom:50%;" />
-<img src="image-1.png" alt="alt text" style="zoom:50%;" />
+<img src="image.png" alt="alt text" height="450px" />
+<img src="image-1.png" alt="alt text" height="450px" />
 
 ### AI-Centric vs Code-Centric Prompts
 e.g.
-<img src="image-2.png" alt="alt text" style="zoom:50%;" />
+<img src="image-2.png" alt="alt text" height="300px" />
 
 | Approach            | Pros                                                                 | Cons                                                                 |
 |----------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
@@ -35,4 +35,4 @@ For anything for which you would have written code, even before you heard of LLM
 - Limit access, supervise everything
 
 ### ReAct Agent Framework
-<img src="image-3.png" alt="alt text" style="zoom:50%;" />
+<img src="image-3.png" alt="alt text" height="300px" />
